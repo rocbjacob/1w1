@@ -1,0 +1,64 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  margin: 0;
+  font-size: 3rem;
+  text-shadow: 2px, 2px, 4px, #bbb;
+}
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+  background-color: black;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+} /* to stay above the choices */
+
+nav a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 4px 2rem;
+}
+
+#accueil {
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+}
+
+#evenements {
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: column;
+}
+
+#video {
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+}
+
+#inscription {
+  background-color: blueviolet;
+  display: flex;
+  flex-direction: column;
+}
+
+#galerie {
+  background-color: cornflowerblue;
+  display: flex;
+  flex-direction: column;
+}
